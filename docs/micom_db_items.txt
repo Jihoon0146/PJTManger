@@ -1,0 +1,13 @@
+name
+maker
+pno
+rom
+rom_data
+ram
+pins
+size
+core
+core_type
+i2c
+spi
+uart
