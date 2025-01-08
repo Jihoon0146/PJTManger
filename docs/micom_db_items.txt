@@ -2,6 +2,8 @@ name
 maker
 pno
 rom
+rom_app_start
+rom_app_end
 rom_data
 ram
 pins
@@ -11,3 +13,22 @@ core_type
 i2c
 spi
 uart
+//////////////////////////////////////////////////
+CREATE TABLE micom_info (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    name TEXT NOT NULL,
+    maker TEXT NOT NULL,
+    pno TEXT NOT NULL,
+    rom TEXT NOT NULL,
+    rom_app_start TEXT NOT NULL,
+    rom_app_end TEXT NOT NULL,
+    rom_data TEXT NOT NULL,
+    ram TEXT NOT NULL,
+    pins INTEGER NOT NULL,
+    size INTEGER NOT NULL,
+    core TEXT NOT NULL,
+    core_type TEXT NOT NULL,
+    i2c TEXT NOT NULL,
+    spi TEXT NOT NULL,
+    uart TEXT NOT NULL
+);
